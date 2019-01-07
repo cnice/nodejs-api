@@ -1,0 +1,30 @@
+{
+  "name": "interceptor-api",
+  "version": "0.1.0",
+  "description": "A Nodejs api to serve client side payloads.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnice/interceptor-app.git"
+  },
+  "keywords": [
+    "interceptor"
+  ],
+  "author": "Cristhian Astudillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnice/interceptor-app/issues"
+  },
+  "homepage": "https://github.com/cnice/interceptor-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
